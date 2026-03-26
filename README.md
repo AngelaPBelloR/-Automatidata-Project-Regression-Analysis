@@ -5,7 +5,7 @@ The data consulting firm Automatidata has recently hired you as the newest membe
 
 The Automatidata team has reviewed the results of the A/B testing. Now it’s time to work on predicting the taxi fare amounts. You’ve impressed your Automatidata colleagues with your hard work and attention to detail. The data team believes that you are ready to build the regression model and update the client New York City TLC about your progress.
 
-A notebook was structured and prepared to help you in this project. Please complete the following questions.
+
 
 # Build a multiple linear regression model
 
