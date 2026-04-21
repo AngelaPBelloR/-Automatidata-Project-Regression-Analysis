@@ -1,11 +1,6 @@
 # **Automatidata Project Regression Analysis**
 
 
-The data consulting firm Automatidata has recently hired you as the newest member of their data analytics team. Their newest client, the NYC Taxi and Limousine Commission (New York City TLC), wants the Automatidata team to build a multiple linear regression model to predict taxi fares using existing data that was collected over the course of a year. The team is getting closer to completing the project, having completed an initial plan of action, initial Python coding work, EDA, and A/B testing.
-
-The Automatidata team has reviewed the results of the A/B testing. Now it’s time to work on predicting the taxi fare amounts. You’ve impressed your Automatidata colleagues with your hard work and attention to detail. The data team believes that you are ready to build the regression model and update the client New York City TLC about your progress.
-
-
 
 # Build a multiple linear regression model
 
@@ -72,16 +67,13 @@ In this stage, consider the following question where applicable to complete your
 
 * What are some purposes of EDA before constructing a multiple linear regression model?
 
-**Exemplar response:**
-
-1.   Outliers and extreme data values can significantly impact linear regression equations. After visualizing data, make a plan for addressing outliers by dropping rows, substituting extreme data with average data, and/or removing data values greater than 3 standard deviations.
+1.   Outliers and extreme data values can significantly impact linear regression equations. After visualizing data, make a plan to identify outliers by dropping rows, substituting extreme data with average data, and/or removing data values greater than 3 standard deviations.
 
 2.   EDA activities also include identifying missing data to help the analyst make decisions on their exclusion or inclusion by substituting values with data set means, medians, and other similar methods.
 
 3.   It's important to check for things like multicollinearity between predictor variables, as well to understand their distributions, as this will help you decide what statistical inferences can be made from the model and which ones cannot.
 
-4.  Additionally, it can be useful to engineer new features by multiplying variables together or taking the difference from one variable to another. For example, in this dataset you can create a `duration` variable by subtracting `tpep_dropoff` from `tpep_pickup time`.
-
+4.  Additionally, it can be useful to engineer new features by multiplying variables together or taking the difference from one variable to another. 
 ### Explore data with EDA
 
 Analyze and discover data, looking for correlations, missing data, outliers, and duplicates.
